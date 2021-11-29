@@ -39,16 +39,16 @@ const securityHeaders = [
 ];
 
 module.exports = {
-  async headers() {
-    return [
-      {
-        // Apply these headers to all routes in your application.
-        source: '/(.*)',
-        headers: securityHeaders,
-      },
-    ];
-  },
-  reactStrictMode: true,
+  // async headers() {
+  //   return [
+  //     {
+  //       // Apply these headers to all routes in your application.
+  //       source: '/(.*)',
+  //       headers: securityHeaders,
+  //     },
+  //   ];
+  // },
+  // reactStrictMode: true,
   images: {
     domains: ['images.ctfassets.net'],
   },
